@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &961468263248083457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9213431862532214830}
+  - component: {fileID: 7172490285460423979}
+  - component: {fileID: 6481424488526295243}
+  - component: {fileID: 6371429104464854392}
+  m_Layer: 5
+  m_Name: Voice tumbler 1861593153
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9213431862532214830
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961468263248083457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -668, y: -7382}
+  m_SizeDelta: {x: 370, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7172490285460423979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961468263248083457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 102:365
+    formattedName: Voice tumbler
+    spriteName: Voice tumbler 4x 1861593153.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 961468263248083457}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 215, y: -421}
+      sizeDelta: {x: 370, y: 70, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1480, y: 280}
+    size: {x: 370, y: 70}
+    position: {x: -853, y: -7347}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1861593153
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (370.00, 70.00)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
+      | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n   
+      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1557167497\r\n    StrokeWeight | 2\r\n    StrokeAlign | INSIDE\r\n   
+      CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n   
+      isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1557167497\r\n    StrokeWeight | 2\r\n    StrokeAlign | INSIDE\r\n   
+      CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.150, 0.150, 0.150, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11\r\n        isVisible | True\r\n        Type | GROUP\r\n       
+      GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        CornerRadius | 50\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (263.00, 32.00)\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadius |
+      50\r\n        BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n       
+      Size | (263.00, 32.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n       
+      isVisible | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1907592786\r\n        StrokeWeight | 2\r\n       
+      StrokeAlign | INSIDE\r\n        CornerRadius | 50\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (263.00, 32.00)\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1907592786\r\n        StrokeWeight
+      | 2\r\n        StrokeAlign | INSIDE\r\n        CornerRadius | 50\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (263.00, 32.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n           
+      isVisible | True\r\n            Type | RECTANGLE\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 2065998696\r\n            StrokeWeight |
+      2\r\n            StrokeAlign | INSIDE\r\n            CornerRadius | 50\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (168.00, 32.00)\r\n           
+      isVisible | True\r\n            Type | RECTANGLE\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 2065998696\r\n            StrokeWeight |
+      2\r\n            StrokeAlign | INSIDE\r\n            CornerRadius | 50\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (168.00, 32.00)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.276, 0.434, 0.996, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound\r\n            isVisible | True\r\n            Type | FRAME\r\n           
+      GetFigmaRotationAngle | 0\r\n            FillGeometry | -835037237\r\n           
+      StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode
+      | PASS_THROUGH\r\n            ClipsContent | True\r\n            Size | (38.00,
+      38.00)\r\n            isVisible | True\r\n            Type | FRAME\r\n           
+      GetFigmaRotationAngle | 0\r\n            FillGeometry | -835037237\r\n           
+      StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode
+      | PASS_THROUGH\r\n            ClipsContent | True\r\n            Size | (38.00,
+      38.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | False\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound/Vector\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -883357530\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (9.50, 28.50)\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -883357530\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (9.50, 28.50)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Color |
+      RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound/Vector\r\n                isVisible | True\r\n               
+      Type | VECTOR\r\n                GetFigmaRotationAngle | 0\r\n               
+      FillGeometry | -1255530140\r\n                StrokeWeight | 1\r\n               
+      StrokeAlign | INSIDE\r\n                BlendMode | PASS_THROUGH\r\n               
+      Size | (25.33, 31.25)\r\n                isVisible | True\r\n               
+      Type | VECTOR\r\n                GetFigmaRotationAngle | 0\r\n               
+      FillGeometry | -1255530140\r\n                StrokeWeight | 1\r\n               
+      StrokeAlign | INSIDE\r\n                BlendMode | PASS_THROUGH\r\n               
+      Size | (25.33, 31.25)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n"
+    parentIndex: 0
+    hierarchy: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice tumbler"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &6481424488526295243
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961468263248083457}
+  m_CullTransparentMesh: 1
+--- !u!114 &6371429104464854392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961468263248083457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0f8951ecfb874d54a97aabca18e432c3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

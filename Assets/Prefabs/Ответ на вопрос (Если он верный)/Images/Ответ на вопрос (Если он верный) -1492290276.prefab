@@ -1,0 +1,2257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1366943957201949416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6703049033962439725}
+  - component: {fileID: 6129762873043183171}
+  m_Layer: 5
+  m_Name: Group 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6703049033962439725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366943957201949416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4012979714598332449}
+  - {fileID: 9052637133908471525}
+  m_Father: {fileID: 7589141787401841083}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 215, y: -666}
+  m_SizeDelta: {x: 370, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6129762873043183171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366943957201949416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 27:367
+    formattedName: Group 3
+    spriteName: 
+    tags: 01000000
+    childIndexes: 3501000036010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 1366943957201949416}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 215, y: -666}
+      sizeDelta: {x: 370, y: 70, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 0.8689491, g: 0.9337438, b: 0.49746004, a: 1}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 370, y: 70}
+    position: {x: 1674, y: -75}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -2053474345
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/Group 3\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 3/button2\r\n    isVisible
+      | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1557167497\r\n    StrokeWeight | 2\r\n    StrokeAlign | INSIDE\r\n    CornerRadius
+      | 50\r\n    BlendMode | PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n    isVisible
+      | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1557167497\r\n    StrokeWeight | 2\r\n    StrokeAlign | INSIDE\r\n    CornerRadius
+      | 50\r\n    BlendMode | PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.869, 0.934,
+      0.497, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      3/Lorem ipsum dolor\r\n        isVisible | True\r\n        Type | TEXT\r\n       
+      GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        isVisible | True\r\n       
+      Type | TEXT\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight |
+      1\r\n        StrokeAlign | OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Josefin Sans\r\n           
+      FontWeight | 400\r\n            FontSize | 26\r\n            TextAlignHorizontal
+      | CENTER\r\n            TextAlignVertical | TOP\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.329,
+      0.329, 0.329, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 298
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      3"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!1 &2932830747246118413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6815144946185270962}
+  - component: {fileID: 6790559915207531815}
+  m_Layer: 5
+  m_Name: slide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6815144946185270962
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2932830747246118413}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3965375452923290548}
+  - {fileID: 607161540581400232}
+  - {fileID: 4848779909904919795}
+  m_Father: {fileID: 7589141787401841083}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 214.95483, y: -871.4099}
+  m_SizeDelta: {x: 369.9099, y: 36.819805}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6790559915207531815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2932830747246118413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 27:363
+    formattedName: slide
+    spriteName: 
+    tags: 01000000
+    childIndexes: 2e0100002f01000030010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 2932830747246118413}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 214.95496, y: -871.4099}
+      sizeDelta: {x: 369.9099, y: 36.819805, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 369.9099, y: 36.819805}
+    position: {x: 1674, y: -297}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -1305677544
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/slide\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (369.91, 36.82)\r\n    isVisible | True\r\n    Type | GROUP\r\n   
+      GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (369.91,
+      36.82)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
+      EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide/\u043D\u043E\u043C\u0435\u0440
+      \u0432\u043E\u043F\u0440\u043E\u0441\u0430\r\n    isVisible | True\r\n    Type
+      | TEXT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n    isVisible | True\r\n    Type
+      | TEXT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
+      FontFamily | Josefin Sans\r\n        FontWeight | 400\r\n        FontSize |
+      26\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical | TOP\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide/left\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | -180\r\n       
+      FillGeometry | -280761153\r\n        StrokeWeight | 5\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (20.91, 36.82)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | -180\r\n        FillGeometry | -280761153\r\n        StrokeWeight | 5\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (20.91, 36.82)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/slide/right\r\n            isVisible
+      | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle |
+      0\r\n            FillGeometry | -280761153\r\n            StrokeWeight | 5\r\n           
+      StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (20.91, 36.82)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -280761153\r\n            StrokeWeight | 5\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (20.91, 36.82)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n"
+    parentIndex: 298
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!1 &3389663384589921750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2591507348239632847}
+  - component: {fileID: 1681462381324784065}
+  m_Layer: 5
+  m_Name: Group 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2591507348239632847
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389663384589921750}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3384195553223795056}
+  - {fileID: 6445147745050981163}
+  m_Father: {fileID: 7589141787401841083}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 215, y: -576}
+  m_SizeDelta: {x: 370, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1681462381324784065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389663384589921750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 27:366
+    formattedName: Group 2
+    spriteName: 
+    tags: 01000000
+    childIndexes: 3201000033010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3389663384589921750}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 215, y: -576}
+      sizeDelta: {x: 370, y: 70, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 370, y: 70}
+    position: {x: 1674, y: 15}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -766728194
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/Group 2\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 2/Lorem ipsum dolor\r\n   
+      isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily | Josefin Sans\r\n       
+      FontWeight | 400\r\n        FontSize | 26\r\n        TextAlignHorizontal |
+      CENTER\r\n        TextAlignVertical | TOP\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      2/button1\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1557167497\r\n        StrokeWeight
+      | 2\r\n        StrokeAlign | INSIDE\r\n        CornerRadius | 50\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (370.00, 70.00)\r\n        isVisible
+      | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 1557167497\r\n        StrokeWeight | 2\r\n        StrokeAlign
+      | INSIDE\r\n        CornerRadius | 50\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (370.00, 70.00)\r\n        \u2014\u2014\u2014\u2014Strokes\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 298
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      2"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!1 &4677642276939177154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4672425660713141189}
+  - component: {fileID: 1212838286806641194}
+  m_Layer: 5
+  m_Name: Group 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4672425660713141189
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4677642276939177154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2256665059654004382}
+  - {fileID: 1656474027665908280}
+  m_Father: {fileID: 7589141787401841083}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 215, y: -756}
+  m_SizeDelta: {x: 370, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1212838286806641194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4677642276939177154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 27:368
+    formattedName: Group 4
+    spriteName: 
+    tags: 01000000
+    childIndexes: 3801000039010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 4677642276939177154}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 215, y: -756}
+      sizeDelta: {x: 370, y: 70, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 370, y: 70}
+    position: {x: 1674, y: -165}
+    fcuImageType: 0
+    buttonComponent: 0
+    hash: -766728194
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/Group 4\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 4/Lorem ipsum dolor\r\n   
+      isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily | Josefin Sans\r\n       
+      FontWeight | 400\r\n        FontSize | 26\r\n        TextAlignHorizontal |
+      CENTER\r\n        TextAlignVertical | TOP\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      4/button3\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1557167497\r\n        StrokeWeight
+      | 2\r\n        StrokeAlign | INSIDE\r\n        CornerRadius | 50\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (370.00, 70.00)\r\n        isVisible
+      | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 1557167497\r\n        StrokeWeight | 2\r\n        StrokeAlign
+      | INSIDE\r\n        CornerRadius | 50\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (370.00, 70.00)\r\n        \u2014\u2014\u2014\u2014Strokes\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n"
+    parentIndex: 298
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group
+      4"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 1
+    isMutual: 1
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!1 &5518079287697007573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7589141787401841083}
+  - component: {fileID: 5327303135458272090}
+  - component: {fileID: 1016259267736121122}
+  - component: {fileID: 6325141648174995712}
+  - component: {fileID: 8677089470484476918}
+  m_Layer: 5
+  m_Name: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+    (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)
+    -1492290276"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7589141787401841083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518079287697007573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4264022578840110059}
+  - {fileID: 9215969336392856469}
+  - {fileID: 4401853498170795025}
+  - {fileID: 6815144946185270962}
+  - {fileID: 2591507348239632847}
+  - {fileID: 6703049033962439725}
+  - {fileID: 4672425660713141189}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1859, y: 90}
+  m_SizeDelta: {x: 430, y: 932}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5327303135458272090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518079287697007573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 21:2416
+    formattedName: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)"
+    spriteName: 
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 2b0100002c0100002d0100003101000034010000370100003a010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5518079287697007573}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: 1859, y: -2470}
+      sizeDelta: {x: 430, y: 932, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 430, y: 932}
+    position: {x: 1644, y: 556}
+    fcuImageType: 2
+    buttonComponent: 0
+    hash: -1492290276
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)\r\n    isVisible | True\r\n    Type |
+      FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1799430741\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (430.00, 932.00)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1799430741\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (430.00, 932.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.276, 0.434,
+      0.996, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/question\r\n    isVisible
+      | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n    isVisible
+      | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
+      FontFamily | Josefin Sans\r\n        FontWeight | 400\r\n        FontSize |
+      26\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical | TOP\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/close\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (17.68, 17.68)\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (17.68, 17.68)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/close/Line 1\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | -135\r\n        StrokeWeight
+      | 5\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        Size | (25.00, 0.00)\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | -135\r\n        StrokeWeight
+      | 5\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        Size | (25.00, 0.00)\r\n        \u2014\u2014\u2014\u2014Strokes\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/close/Line 2\r\n            isVisible
+      | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle |
+      135\r\n            StrokeWeight | 5\r\n            StrokeAlign | CENTER\r\n           
+      BlendMode | PASS_THROUGH\r\n            StrokeCap | ROUND\r\n            Size
+      | (25.00, 0.00)\r\n            isVisible | True\r\n            Type | VECTOR\r\n           
+      GetFigmaRotationAngle | 135\r\n            StrokeWeight | 5\r\n           
+      StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
+      StrokeCap | ROUND\r\n            Size | (25.00, 0.00)\r\n            \u2014\u2014\u2014\u2014Strokes\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Color |
+      RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide\r\n            isVisible
+      | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle | 0\r\n           
+      StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode
+      | PASS_THROUGH\r\n            ClipsContent | False\r\n            Size | (369.91,
+      36.82)\r\n            isVisible | True\r\n            Type | GROUP\r\n           
+      GetFigmaRotationAngle | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign
+      | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent
+      | False\r\n            Size | (369.91, 36.82)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438 \u043E\u043D
+      \u0432\u0435\u0440\u043D\u044B\u0439)/slide/\u043D\u043E\u043C\u0435\u0440
+      \u0432\u043E\u043F\u0440\u043E\u0441\u0430\r\n            isVisible | True\r\n           
+      Type | TEXT\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | OUTSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      isVisible | True\r\n            Type | TEXT\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | OUTSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            \u2014\u2014\u2014\u2014TextStyle\r\n               
+      FontFamily | Josefin Sans\r\n                FontWeight | 400\r\n               
+      FontSize | 26\r\n                TextAlignHorizontal | CENTER\r\n               
+      TextAlignVertical | TOP\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Color |
+      RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide/left\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | -180\r\n                FillGeometry | -280761153\r\n                StrokeWeight
+      | 5\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (20.91, 36.82)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | -180\r\n                FillGeometry | -280761153\r\n                StrokeWeight
+      | 5\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (20.91, 36.82)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 2\r\n               
+      isVisible | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      CornerRadius | 50\r\n                BlendMode | PASS_THROUGH\r\n               
+      ClipsContent | False\r\n                Size | (370.00, 70.00)\r\n               
+      isVisible | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      CornerRadius | 50\r\n                BlendMode | PASS_THROUGH\r\n               
+      ClipsContent | False\r\n                Size | (370.00, 70.00)\r\n               
+      \u2014\u2014\u2014\u2014ArcData\r\n                    StartingAngle | 0\r\n                   
+      EndingAngle | 0\r\n                    InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 2/Lorem ipsum dolor\r\n               
+      isVisible | True\r\n                Type | TEXT\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | OUTSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                isVisible | True\r\n               
+      Type | TEXT\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | OUTSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                \u2014\u2014\u2014\u2014TextStyle\r\n                   
+      FontFamily | Josefin Sans\r\n                    FontWeight | 400\r\n                   
+      FontSize | 26\r\n                    TextAlignHorizontal | CENTER\r\n                   
+      TextAlignVertical | TOP\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/slide/right\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -280761153\r\n                   
+      StrokeWeight | 5\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (20.91, 36.82)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -280761153\r\n                   
+      StrokeWeight | 5\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (20.91, 36.82)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 2/button1\r\n                   
+      isVisible | True\r\n                    Type | RECTANGLE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1557167497\r\n                   
+      StrokeWeight | 2\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (370.00, 70.00)\r\n                    isVisible | True\r\n                   
+      Type | RECTANGLE\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | 1557167497\r\n                    StrokeWeight | 2\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (370.00, 70.00)\r\n                   
+      \u2014\u2014\u2014\u2014Strokes\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 3\r\n                   
+      isVisible | True\r\n                    Type | GROUP\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    ClipsContent | False\r\n                   
+      Size | (370.00, 70.00)\r\n                    isVisible | True\r\n                   
+      Type | GROUP\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (370.00, 70.00)\r\n                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                        StartingAngle |
+      0\r\n                        EndingAngle | 0\r\n                        InnerRadius
+      | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 3/button2\r\n                   
+      isVisible | True\r\n                    Type | RECTANGLE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1557167497\r\n                   
+      StrokeWeight | 2\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (370.00, 70.00)\r\n                    isVisible | True\r\n                   
+      Type | RECTANGLE\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | 1557167497\r\n                    StrokeWeight | 2\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (370.00, 70.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.869, 0.934, 0.497, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 3/Lorem ipsum dolor\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | OUTSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | OUTSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      \u2014\u2014\u2014\u2014TextStyle\r\n                            FontFamily
+      | Josefin Sans\r\n                            FontWeight | 400\r\n                           
+      FontSize | 26\r\n                            TextAlignHorizontal | CENTER\r\n                           
+      TextAlignVertical | TOP\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(0.329, 0.329, 0.329, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 4\r\n                       
+      isVisible | True\r\n                        Type | GROUP\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        CornerRadius | 50\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        ClipsContent | False\r\n                       
+      Size | (370.00, 70.00)\r\n                        isVisible | True\r\n                       
+      Type | GROUP\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      CornerRadius | 50\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | False\r\n                        Size | (370.00, 70.00)\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 4/Lorem ipsum dolor\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | OUTSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | OUTSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      \u2014\u2014\u2014\u2014TextStyle\r\n                            FontFamily
+      | Josefin Sans\r\n                            FontWeight | 400\r\n                           
+      FontSize | 26\r\n                            TextAlignHorizontal | CENTER\r\n                           
+      TextAlignVertical | TOP\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/Group 4/button3\r\n                           
+      isVisible | True\r\n                            Type | RECTANGLE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1557167497\r\n                           
+      StrokeWeight | 2\r\n                            StrokeAlign | INSIDE\r\n                           
+      CornerRadius | 50\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (370.00, 70.00)\r\n                            isVisible | True\r\n                           
+      Type | RECTANGLE\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | 1557167497\r\n                            StrokeWeight | 2\r\n                           
+      StrokeAlign | INSIDE\r\n                            CornerRadius | 50\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (370.00, 70.00)\r\n                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 (\u0415\u0441\u043B\u0438
+      \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)/photo\r\n                           
+      isVisible | True\r\n                            Type | RECTANGLE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 712360546\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      CornerRadius | 50\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (370.00, 247.00)\r\n                            isVisible | True\r\n                           
+      Type | RECTANGLE\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | 712360546\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            CornerRadius | 50\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (370.00, 247.00)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | IMAGE\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n                               
+      BlendMode | NORMAL\r\n                                ScaleMode | FILL\r\n                               
+      ImageRef | a7390f542982f0bda11fbfb8b3023dcaa7fc4a3b\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      (\u0415\u0441\u043B\u0438 \u043E\u043D \u0432\u0435\u0440\u043D\u044B\u0439)"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1016259267736121122
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518079287697007573}
+  m_CullTransparentMesh: 1
+--- !u!114 &6325141648174995712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518079287697007573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2760585, g: 0.4339682, b: 0.99583334, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8677089470484476918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518079287697007573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1001 &291888375141038837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7589141787401841083}
+    m_Modifications:
+    - target: {fileID: 739185238424660291, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_Name
+      value: close
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665719600707921335, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: data.id
+      value: 21:2638
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 22.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 22.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 388.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -82.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+--- !u!224 &9215969336392856469 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8928753112652335456, guid: d708663b8e8333549b665003afcd7c57, type: 3}
+  m_PrefabInstance: {fileID: 291888375141038837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1002964003569526565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6815144946185270962}
+    m_Modifications:
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 359.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18.49999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452962891550475074, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 7901951147457527447, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+      propertyPath: data.id
+      value: 21:2649
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+--- !u!224 &4848779909904919795 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5665930554259606486, guid: 10e144682948f3841ad4c154c8d664b2, type: 3}
+  m_PrefabInstance: {fileID: 1002964003569526565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1372944238730265518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4672425660713141189}
+    m_Modifications:
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 369
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754245984678410309, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Name
+      value: Lorem ipsum dolor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356234935135453147, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Text
+      value: 'Lorem ipsum dolor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688171584451089184, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: data.id
+      value: 21:2654
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+--- !u!224 &2256665059654004382 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+  m_PrefabInstance: {fileID: 1372944238730265518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2498361467183942720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2591507348239632847}
+    m_Modifications:
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 369
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754245984678410309, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Name
+      value: Lorem ipsum dolor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356234935135453147, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Text
+      value: 'Lorem ipsum dolor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688171584451089184, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: data.id
+      value: 21:2651
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+--- !u!224 &3384195553223795056 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+  m_PrefabInstance: {fileID: 2498361467183942720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2939008995831043567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2591507348239632847}
+    m_Modifications:
+    - target: {fileID: 875907742463667025, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Name
+      value: button1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700329519546166223, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: data.id
+      value: 21:2650
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+--- !u!224 &6445147745050981163 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+  m_PrefabInstance: {fileID: 2939008995831043567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3994759497344823003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7589141787401841083}
+    m_Modifications:
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 369
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -448.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754245984678410309, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Name
+      value: question
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356234935135453147, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Text
+      value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate
+        est eget nisi '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688171584451089184, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: data.id
+      value: 21:2631
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+--- !u!224 &4264022578840110059 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+  m_PrefabInstance: {fileID: 3994759497344823003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4277067932230635140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6815144946185270962}
+    m_Modifications:
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 184.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754245984678410309, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Name
+      value: "\u043D\u043E\u043C\u0435\u0440 \u0432\u043E\u043F\u0440\u043E\u0441\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356234935135453147, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: m_Text
+      value: 13/18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688171584451089184, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+      propertyPath: data.id
+      value: 21:2639
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+--- !u!224 &3965375452923290548 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 890839063640780080, guid: fe776a0bed73a8149a2d15ab29ff7f88, type: 3}
+  m_PrefabInstance: {fileID: 4277067932230635140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5317935565431679117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6703049033962439725}
+    m_Modifications:
+    - target: {fileID: 1537284496050843778, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_Name
+      value: button2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309607614312791337, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: data.id
+      value: 21:2653
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 185
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+--- !u!224 &4012979714598332449 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9114702842098335916, guid: b856965ffb284ce49ba2576db3b4c813, type: 3}
+  m_PrefabInstance: {fileID: 5317935565431679117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7441157146016498940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4672425660713141189}
+    m_Modifications:
+    - target: {fileID: 875907742463667025, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Name
+      value: button3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700329519546166223, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: data.id
+      value: 21:2655
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+--- !u!224 &1656474027665908280 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8194500345418983108, guid: 6fbdd0c31c9b01f4c9b38168448d7261, type: 3}
+  m_PrefabInstance: {fileID: 7441157146016498940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8055180523070695119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6815144946185270962}
+    m_Modifications:
+    - target: {fileID: 3075932819749478976, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18.49999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204150429508559616, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+      propertyPath: data.id
+      value: 21:2648
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+--- !u!224 &607161540581400232 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7468325209928644711, guid: a04c077185ffb7a488c0122722335d2e, type: 3}
+  m_PrefabInstance: {fileID: 8055180523070695119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8393182291291821937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7589141787401841083}
+    m_Modifications:
+    - target: {fileID: 3746851513752989266, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_Name
+      value: photo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 247
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -234.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345597463483724075, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+      propertyPath: data.id
+      value: 44:273
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+--- !u!224 &4401853498170795025 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5290626460213293920, guid: dc4d3ccd4119408409c94b67e06d6cff, type: 3}
+  m_PrefabInstance: {fileID: 8393182291291821937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8681338622260047158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6703049033962439725}
+    m_Modifications:
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 369
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 555937451794774964, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_Text
+      value: 'Lorem ipsum dolor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583627750527817294, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: data.id
+      value: 21:2652
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753895544631720228, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+      propertyPath: m_Name
+      value: Lorem ipsum dolor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+--- !u!224 &9052637133908471525 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 421969445442782163, guid: bbbcdb2cdbf964d4791ff0e1e2936688, type: 3}
+  m_PrefabInstance: {fileID: 8681338622260047158}
+  m_PrefabAsset: {fileID: 0}

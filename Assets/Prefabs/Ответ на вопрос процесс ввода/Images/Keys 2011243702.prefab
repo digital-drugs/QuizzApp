@@ -1,0 +1,1236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4850557282132974467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5646700741195397427}
+  - component: {fileID: 5896652811611386759}
+  - component: {fileID: 2413719735558741810}
+  - component: {fileID: 6380434725303623822}
+  m_Layer: 5
+  m_Name: Keys 2011243702
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5646700741195397427
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4850557282132974467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1567378611533404504}
+  - {fileID: 6366877424086172324}
+  - {fileID: 3728594878183454743}
+  - {fileID: 1392439579958072241}
+  - {fileID: 4648325398739514435}
+  - {fileID: 1593608599154131957}
+  - {fileID: 4014775890534345064}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1304, y: -3180}
+  m_SizeDelta: {x: 308, y: 42}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5896652811611386759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4850557282132974467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: I21:2690;802:11713
+    formattedName: Keys
+    spriteName: 
+    tags: c900000001000000
+    childIndexes: be000000c1000000c4000000c7000000ca000000cd000000d0000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 4850557282132974467}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 1, y: 1}
+      anchoredPosition: {x: 0, y: -21}
+      sizeDelta: {x: -116, y: 42, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 308, y: 42}
+    position: {x: 1150, y: -3159}
+    fcuImageType: 2
+    buttonComponent: 0
+    hash: 2011243702
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys\r\n   
+      isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (308.00, 42.00)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (308.00, 42.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | False\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n   
+      isVisible | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (39.00, 42.00)\r\n    isVisible | True\r\n   
+      Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (39.00, 42.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | False\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n   
+      isVisible | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 164304803\r\n    StrokeWeight | 0\r\n    StrokeAlign | CENTER\r\n   
+      CornerRadius | 4,6\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (39.00, 42.00)\r\n    isVisible | True\r\n    Type | INSTANCE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | 164304803\r\n    StrokeWeight
+      | 0\r\n    StrokeAlign | CENTER\r\n    CornerRadius | 4,6\r\n    BlendMode
+      | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (39.00, 42.00)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible | True\r\n       
+      Type | DROP_SHADOW\r\n        Radius | 0\r\n        Color | RGBA(0.000, 0.000,
+      0.000, 0.300)\r\n        BlendMode | NORMAL\r\n        Offset | (0.00, 1.00)\r\n       
+      ShowShadowBehindNode | True\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      \u043F\u0440\u043E\u0446\u0435\u0441\u0441 \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom
+      Row/Keys/_Key/Letter\r\n        isVisible | True\r\n        Type | TEXT\r\n       
+      GetFigmaRotationAngle | 0\r\n        StrokeWeight | 0\r\n        StrokeAlign
+      | CENTER\r\n        BlendMode | PASS_THROUGH\r\n        isVisible | True\r\n       
+      Type | TEXT\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight |
+      0\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | SF Pro Display\r\n           
+      FontWeight | 300\r\n            FontSize | 26\r\n            TextAlignHorizontal
+      | CENTER\r\n            TextAlignVertical | BOTTOM\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n       
+      isVisible | True\r\n        Type | INSTANCE\r\n        GetFigmaRotationAngle
+      | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n        Size |
+      (38.00, 42.00)\r\n        isVisible | True\r\n        Type | INSTANCE\r\n       
+      GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n       
+      Size | (38.00, 42.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | False\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430
+      \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n       
+      isVisible | True\r\n        Type | INSTANCE\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -2085732257\r\n        StrokeWeight | 0\r\n       
+      StrokeAlign | CENTER\r\n        CornerRadius | 4,6\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (38.00, 42.00)\r\n        isVisible
+      | True\r\n        Type | INSTANCE\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | -2085732257\r\n        StrokeWeight | 0\r\n        StrokeAlign
+      | CENTER\r\n        CornerRadius | 4,6\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (38.00, 42.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
+      IsVisible | True\r\n            Type | DROP_SHADOW\r\n            Radius |
+      0\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.300)\r\n            BlendMode
+      | NORMAL\r\n            Offset | (0.00, 1.00)\r\n            ShowShadowBehindNode
+      | True\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
+      | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n       
+      \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      \u043F\u0440\u043E\u0446\u0435\u0441\u0441 \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom
+      Row/Keys/_Key/Letter\r\n            isVisible | True\r\n            Type |
+      TEXT\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight |
+      0\r\n            StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
+      isVisible | True\r\n            Type | TEXT\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 0\r\n            StrokeAlign | CENTER\r\n           
+      BlendMode | PASS_THROUGH\r\n            \u2014\u2014\u2014\u2014TextStyle\r\n               
+      FontFamily | SF Pro Display\r\n                FontWeight | 300\r\n               
+      FontSize | 26\r\n                TextAlignHorizontal | CENTER\r\n               
+      TextAlignVertical | BOTTOM\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Color |
+      RGBA(0.000, 0.000, 0.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n           
+      isVisible | True\r\n            Type | INSTANCE\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            ClipsContent | False\r\n           
+      Size | (39.00, 42.00)\r\n            isVisible | True\r\n            Type |
+      INSTANCE\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | False\r\n            Size | (39.00, 42.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | False\r\n                Type | SOLID\r\n                Color
+      | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n           
+      isVisible | True\r\n            Type | INSTANCE\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 164304803\r\n            StrokeWeight | 0\r\n           
+      StrokeAlign | CENTER\r\n            CornerRadius | 4,6\r\n            BlendMode
+      | PASS_THROUGH\r\n            ClipsContent | False\r\n            Size | (39.00,
+      42.00)\r\n            isVisible | True\r\n            Type | INSTANCE\r\n           
+      GetFigmaRotationAngle | 0\r\n            FillGeometry | 164304803\r\n           
+      StrokeWeight | 0\r\n            StrokeAlign | CENTER\r\n            CornerRadius
+      | 4,6\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent |
+      False\r\n            Size | (39.00, 42.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Color |
+      RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014Effects\r\n                IsVisible | True\r\n               
+      Type | DROP_SHADOW\r\n                Radius | 0\r\n                Color |
+      RGBA(0.000, 0.000, 0.000, 0.300)\r\n                BlendMode | NORMAL\r\n               
+      Offset | (0.00, 1.00)\r\n                ShowShadowBehindNode | True\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/Letter\r\n               
+      isVisible | True\r\n                Type | TEXT\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 0\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                isVisible | True\r\n               
+      Type | TEXT\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 0\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                \u2014\u2014\u2014\u2014TextStyle\r\n                   
+      FontFamily | SF Pro Display\r\n                    FontWeight | 300\r\n                   
+      FontSize | 26\r\n                    TextAlignHorizontal | CENTER\r\n                   
+      TextAlignVertical | BOTTOM\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n               
+      isVisible | True\r\n                Type | INSTANCE\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (40.00, 42.00)\r\n                isVisible | True\r\n               
+      Type | INSTANCE\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (40.00, 42.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | False\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n               
+      isVisible | True\r\n                Type | INSTANCE\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1507631369\r\n                StrokeWeight
+      | 0\r\n                StrokeAlign | CENTER\r\n                CornerRadius
+      | 4,6\r\n                BlendMode | PASS_THROUGH\r\n                ClipsContent
+      | False\r\n                Size | (40.00, 42.00)\r\n                isVisible
+      | True\r\n                Type | INSTANCE\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1507631369\r\n                StrokeWeight
+      | 0\r\n                StrokeAlign | CENTER\r\n                CornerRadius
+      | 4,6\r\n                BlendMode | PASS_THROUGH\r\n                ClipsContent
+      | False\r\n                Size | (40.00, 42.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014Effects\r\n                   
+      IsVisible | True\r\n                    Type | DROP_SHADOW\r\n                   
+      Radius | 0\r\n                    Color | RGBA(0.000, 0.000, 0.000, 0.300)\r\n                   
+      BlendMode | NORMAL\r\n                    Offset | (0.00, 1.00)\r\n                   
+      ShowShadowBehindNode | True\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/Letter\r\n                   
+      isVisible | True\r\n                    Type | TEXT\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 0\r\n                   
+      StrokeAlign | CENTER\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      isVisible | True\r\n                    Type | TEXT\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 0\r\n                   
+      StrokeAlign | CENTER\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      \u2014\u2014\u2014\u2014TextStyle\r\n                        FontFamily | SF
+      Pro Display\r\n                        FontWeight | 300\r\n                       
+      FontSize | 26\r\n                        TextAlignHorizontal | CENTER\r\n                       
+      TextAlignVertical | BOTTOM\r\n                    \u2014\u2014\u2014\u2014Fills\r\n                       
+      IsVisible | True\r\n                        Type | SOLID\r\n                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n                   
+      isVisible | True\r\n                    Type | INSTANCE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (38.00, 42.00)\r\n                   
+      isVisible | True\r\n                    Type | INSTANCE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (38.00, 42.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | False\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n                   
+      isVisible | True\r\n                    Type | INSTANCE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -2085732257\r\n                   
+      StrokeWeight | 0\r\n                    StrokeAlign | CENTER\r\n                   
+      CornerRadius | 4,6\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (38.00, 42.00)\r\n                   
+      isVisible | True\r\n                    Type | INSTANCE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -2085732257\r\n                   
+      StrokeWeight | 0\r\n                    StrokeAlign | CENTER\r\n                   
+      CornerRadius | 4,6\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (38.00, 42.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014Effects\r\n                       
+      IsVisible | True\r\n                        Type | DROP_SHADOW\r\n                       
+      Radius | 0\r\n                        Color | RGBA(0.000, 0.000, 0.000, 0.300)\r\n                       
+      BlendMode | NORMAL\r\n                        Offset | (0.00, 1.00)\r\n                       
+      ShowShadowBehindNode | True\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/Letter\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 0\r\n                       
+      StrokeAlign | CENTER\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      isVisible | True\r\n                        Type | TEXT\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 0\r\n                       
+      StrokeAlign | CENTER\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      \u2014\u2014\u2014\u2014TextStyle\r\n                            FontFamily
+      | SF Pro Display\r\n                            FontWeight | 300\r\n                           
+      FontSize | 26\r\n                            TextAlignHorizontal | CENTER\r\n                           
+      TextAlignVertical | BOTTOM\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n                       
+      isVisible | True\r\n                        Type | INSTANCE\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | False\r\n                        Size | (39.00, 42.00)\r\n                       
+      isVisible | True\r\n                        Type | INSTANCE\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | False\r\n                        Size | (39.00, 42.00)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | False\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n                       
+      isVisible | True\r\n                        Type | INSTANCE\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 164304803\r\n                       
+      StrokeWeight | 0\r\n                        StrokeAlign | CENTER\r\n                       
+      CornerRadius | 4,6\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | False\r\n                        Size | (39.00, 42.00)\r\n                       
+      isVisible | True\r\n                        Type | INSTANCE\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 164304803\r\n                       
+      StrokeWeight | 0\r\n                        StrokeAlign | CENTER\r\n                       
+      CornerRadius | 4,6\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | False\r\n                        Size | (39.00, 42.00)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014Effects\r\n                            IsVisible |
+      True\r\n                            Type | DROP_SHADOW\r\n                           
+      Radius | 0\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      0.300)\r\n                            BlendMode | NORMAL\r\n                           
+      Offset | (0.00, 1.00)\r\n                            ShowShadowBehindNode |
+      True\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/Letter\r\n                           
+      isVisible | True\r\n                            Type | TEXT\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 0\r\n                           
+      StrokeAlign | CENTER\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      isVisible | True\r\n                            Type | TEXT\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 0\r\n                           
+      StrokeAlign | CENTER\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      \u2014\u2014\u2014\u2014TextStyle\r\n                                FontFamily
+      | SF Pro Display\r\n                                FontWeight | 300\r\n                               
+      FontSize | 26\r\n                                TextAlignHorizontal | CENTER\r\n                               
+      TextAlignVertical | BOTTOM\r\n                            \u2014\u2014\u2014\u2014Fills\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key\r\n                           
+      isVisible | True\r\n                            Type | INSTANCE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (39.00, 42.00)\r\n                           
+      isVisible | True\r\n                            Type | INSTANCE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (39.00, 42.00)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | False\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/_KeyContainer\r\n                           
+      isVisible | True\r\n                            Type | INSTANCE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 164304803\r\n                           
+      StrokeWeight | 0\r\n                            StrokeAlign | CENTER\r\n                           
+      CornerRadius | 4,6\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (39.00, 42.00)\r\n                           
+      isVisible | True\r\n                            Type | INSTANCE\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 164304803\r\n                           
+      StrokeWeight | 0\r\n                            StrokeAlign | CENTER\r\n                           
+      CornerRadius | 4,6\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (39.00, 42.00)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014Effects\r\n                               
+      IsVisible | True\r\n                                Type | DROP_SHADOW\r\n                               
+      Radius | 0\r\n                                Color | RGBA(0.000, 0.000, 0.000,
+      0.300)\r\n                                BlendMode | NORMAL\r\n                               
+      Offset | (0.00, 1.00)\r\n                                ShowShadowBehindNode
+      | True\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014\u041E\u0442\u0432\u0435\u0442
+      \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+      \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom Row/Keys/_Key/Letter\r\n                               
+      isVisible | True\r\n                                Type | TEXT\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      0\r\n                                StrokeAlign | CENTER\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                isVisible | True\r\n                               
+      Type | TEXT\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      StrokeWeight | 0\r\n                                StrokeAlign | CENTER\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                \u2014\u2014\u2014\u2014TextStyle\r\n                                   
+      FontFamily | SF Pro Display\r\n                                    FontWeight
+      | 300\r\n                                    FontSize | 26\r\n                                   
+      TextAlignHorizontal | CENTER\r\n                                    TextAlignVertical
+      | BOTTOM\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n"
+    parentIndex: 188
+    hierarchy: "\u041E\u0442\u0432\u0435\u0442 \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441
+      \u043F\u0440\u043E\u0446\u0435\u0441\u0441 \u0432\u0432\u043E\u0434\u0430/AlphabeticKeyboard/Keys/Bottom
+      Row/Keys"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &2413719735558741810
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4850557282132974467}
+  m_CullTransparentMesh: 1
+--- !u!114 &6380434725303623822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4850557282132974467}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &66228629498415626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 134.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278579430501910223, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+--- !u!224 &4014775890534345064 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+  m_PrefabInstance: {fileID: 66228629498415626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &352040231720704885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 1125903289777094230, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: data.id
+      value: I21:2690;802:11716
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -45.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278579430501910223, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+--- !u!224 &3728594878183454743 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+  m_PrefabInstance: {fileID: 352040231720704885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &782150239824153796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 1771171895095714282, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: data.id
+      value: I21:2690;802:11715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844914787255242651, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+--- !u!224 &6366877424086172324 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+  m_PrefabInstance: {fileID: 782150239824153796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1297981611037669923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 3844914787255242651, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+--- !u!224 &4648325398739514435 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5945156366554943072, guid: 204a839f508b45f458ce4c49bfcddb81, type: 3}
+  m_PrefabInstance: {fileID: 1297981611037669923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2396391515644223639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 1125903289777094230, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: data.id
+      value: I21:2690;802:11719
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 89.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278579430501910223, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+--- !u!224 &1593608599154131957 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+  m_PrefabInstance: {fileID: 2396391515644223639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2493975471072655930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 1125903289777094230, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: data.id
+      value: I21:2690;802:11714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -134.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278579430501910223, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+--- !u!224 &1567378611533404504 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3989085295066538850, guid: cb654f072566a4544a5ddb6480463e3c, type: 3}
+  m_PrefabInstance: {fileID: 2493975471072655930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7121920510507960010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5646700741195397427}
+    m_Modifications:
+    - target: {fileID: 601720815373283274, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_Name
+      value: _Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -268
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+--- !u!224 &1392439579958072241 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8179896551674287483, guid: d113b3a123d695844b962a73881ac10e, type: 3}
+  m_PrefabInstance: {fileID: 7121920510507960010}
+  m_PrefabAsset: {fileID: 0}

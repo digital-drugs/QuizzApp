@@ -1,0 +1,987 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1069769114941171912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138048781257240226}
+  - component: {fileID: 8493566954379630271}
+  - component: {fileID: 3574822953479223398}
+  - component: {fileID: 4172803810397979097}
+  - component: {fileID: 6336586458565527775}
+  m_Layer: 5
+  m_Name: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 -650942930"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1138048781257240226
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069769114941171912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7282478292060683740}
+  - {fileID: 1800183763752971249}
+  - {fileID: 7215584397474788679}
+  - {fileID: 1112056940376483395}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -668, y: -7427}
+  m_SizeDelta: {x: 430, y: 932}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8493566954379630271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069769114941171912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 102:333
+    formattedName: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+    spriteName: 
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 01000000020000000300000004000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 1069769114941171912}
+    transformData:
+      anchorMin: {x: 0, y: 1}
+      anchorMax: {x: 0, y: 1}
+      anchoredPosition: {x: -668, y: -9987}
+      sizeDelta: {x: 430, y: 932, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+      localScale: {x: 1, y: 1, z: 1}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 0, y: 0}
+    size: {x: 430, y: 932}
+    position: {x: -883, y: -6961}
+    fcuImageType: 2
+    buttonComponent: 0
+    hash: -650942930
+    hashDataTree: "\u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\r\n   
+      isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1799430741\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | True\r\n    Size | (430.00,
+      932.00)\r\n    isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -1799430741\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | True\r\n   
+      Size | (430.00, 932.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/\u041F\u043B\u0430\u0448\u043A\u0430
+      \u043C\u0435\u043D\u044E\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | 1557167497\r\n    StrokeWeight
+      | 2\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n    BlendMode |
+      PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n    isVisible | True\r\n    Type
+      | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1557167497\r\n   
+      StrokeWeight | 2\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 50\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (370.00, 70.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.150, 0.150,
+      0.150, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus\r\n       
+      isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle |
+      0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadiuses
+      | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n       
+      Size | (370.00, 70.00)\r\n        isVisible | True\r\n        Type | GROUP\r\n       
+      GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (370.00, 70.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041F\u043B\u0430\u0448\u043A\u0430
+      \u043C\u0435\u043D\u044E\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1557167497\r\n        StrokeWeight
+      | 2\r\n        StrokeAlign | INSIDE\r\n        CornerRadius | 50\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (370.00, 70.00)\r\n        isVisible
+      | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 1557167497\r\n        StrokeWeight | 2\r\n        StrokeAlign
+      | INSIDE\r\n        CornerRadius | 50\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (370.00, 70.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.150,
+      0.150, 0.150, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438\r\n           
+      isVisible | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            ClipsContent | False\r\n           
+      Size | (341.00, 51.00)\r\n            isVisible | True\r\n            Type
+      | GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | False\r\n            Size | (341.00, 51.00)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041F\u0440\u043E\u0444\u0438\u043B\u044C\r\n           
+      isVisible | True\r\n            Type | FRAME\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 2074853707\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | True\r\n            Size | (48.00, 48.00)\r\n            isVisible
+      | True\r\n            Type | FRAME\r\n            GetFigmaRotationAngle | 0\r\n           
+      FillGeometry | 2074853707\r\n            StrokeWeight | 1\r\n            StrokeAlign
+      | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent
+      | True\r\n            Size | (48.00, 48.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | False\r\n                Type | SOLID\r\n                Color
+      | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
+      \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
+      EndingAngle | 0\r\n                InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041F\u0440\u043E\u0444\u0438\u043B\u044C/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -706567253\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (40.00, 40.00)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -706567253\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (40.00, 40.00)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler\r\n            isVisible | True\r\n            Type | GROUP\r\n           
+      GetFigmaRotationAngle | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign
+      | INSIDE\r\n            CornerRadiuses | 0 0 0 0\r\n            BlendMode |
+      PASS_THROUGH\r\n            ClipsContent | False\r\n            Size | (370.00,
+      70.00)\r\n            isVisible | True\r\n            Type | GROUP\r\n           
+      GetFigmaRotationAngle | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign
+      | INSIDE\r\n            CornerRadiuses | 0 0 0 0\r\n            BlendMode |
+      PASS_THROUGH\r\n            ClipsContent | False\r\n            Size | (370.00,
+      70.00)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle
+      | 0\r\n                EndingAngle | 0\r\n                InnerRadius | 0\r\n       
+      \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n           
+      isVisible | True\r\n            Type | RECTANGLE\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1557167497\r\n            StrokeWeight |
+      2\r\n            StrokeAlign | INSIDE\r\n            CornerRadius | 50\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (370.00, 70.00)\r\n           
+      isVisible | True\r\n            Type | RECTANGLE\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1557167497\r\n            StrokeWeight |
+      2\r\n            StrokeAlign | INSIDE\r\n            CornerRadius | 50\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (370.00, 70.00)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.150, 0.150, 0.150, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u0422\u043E\u043F\r\n               
+      isVisible | True\r\n                Type | FRAME\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2074853707\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                ClipsContent | True\r\n                Size
+      | (48.00, 48.00)\r\n                isVisible | True\r\n                Type
+      | FRAME\r\n                GetFigmaRotationAngle | 0\r\n                FillGeometry
+      | 2074853707\r\n                StrokeWeight | 1\r\n                StrokeAlign
+      | INSIDE\r\n                BlendMode | PASS_THROUGH\r\n                ClipsContent
+      | True\r\n                Size | (48.00, 48.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | False\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u0422\u043E\u043F/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -225777012\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (40.00, 28.00)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -225777012\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (40.00, 28.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11\r\n                isVisible | True\r\n                Type
+      | GROUP\r\n                GetFigmaRotationAngle | 0\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                CornerRadius
+      | 50\r\n                BlendMode | PASS_THROUGH\r\n                ClipsContent
+      | False\r\n                Size | (263.00, 32.00)\r\n                isVisible
+      | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      CornerRadius | 50\r\n                BlendMode | PASS_THROUGH\r\n               
+      ClipsContent | False\r\n                Size | (263.00, 32.00)\r\n               
+      \u2014\u2014\u2014\u2014ArcData\r\n                    StartingAngle | 0\r\n                   
+      EndingAngle | 0\r\n                    InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n               
+      isVisible | True\r\n                Type | RECTANGLE\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1907592786\r\n                StrokeWeight
+      | 2\r\n                StrokeAlign | INSIDE\r\n                CornerRadius
+      | 50\r\n                BlendMode | PASS_THROUGH\r\n                Size |
+      (263.00, 32.00)\r\n                isVisible | True\r\n                Type
+      | RECTANGLE\r\n                GetFigmaRotationAngle | 0\r\n               
+      FillGeometry | 1907592786\r\n                StrokeWeight | 2\r\n               
+      StrokeAlign | INSIDE\r\n                CornerRadius | 50\r\n               
+      BlendMode | PASS_THROUGH\r\n                Size | (263.00, 32.00)\r\n               
+      \u2014\u2014\u2014\u2014Fills\r\n                    IsVisible | True\r\n                   
+      Type | SOLID\r\n                    Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler\r\n                isVisible | True\r\n                Type | GROUP\r\n               
+      GetFigmaRotationAngle | 0\r\n                StrokeWeight | 1\r\n               
+      StrokeAlign | INSIDE\r\n                CornerRadiuses | 0 0 0 0\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (370.00, 70.00)\r\n                isVisible | True\r\n               
+      Type | GROUP\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      CornerRadiuses | 0 0 0 0\r\n                BlendMode | PASS_THROUGH\r\n               
+      ClipsContent | False\r\n                Size | (370.00, 70.00)\r\n               
+      \u2014\u2014\u2014\u2014ArcData\r\n                    StartingAngle | 0\r\n                   
+      EndingAngle | 0\r\n                    InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n               
+      isVisible | True\r\n                Type | RECTANGLE\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1557167497\r\n                StrokeWeight
+      | 2\r\n                StrokeAlign | INSIDE\r\n                CornerRadius
+      | 50\r\n                BlendMode | PASS_THROUGH\r\n                Size |
+      (370.00, 70.00)\r\n                isVisible | True\r\n                Type
+      | RECTANGLE\r\n                GetFigmaRotationAngle | 0\r\n               
+      FillGeometry | 1557167497\r\n                StrokeWeight | 2\r\n               
+      StrokeAlign | INSIDE\r\n                CornerRadius | 50\r\n               
+      BlendMode | PASS_THROUGH\r\n                Size | (370.00, 70.00)\r\n               
+      \u2014\u2014\u2014\u2014Fills\r\n                    IsVisible | True\r\n                   
+      Type | SOLID\r\n                    Color | RGBA(0.150, 0.150, 0.150, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u0418\u0433\u0440\u0430\u0442\u044C\r\n                   
+      isVisible | True\r\n                    Type | FRAME\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1898443539\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    ClipsContent | True\r\n                   
+      Size | (40.00, 39.00)\r\n                    isVisible | True\r\n                   
+      Type | FRAME\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | 1898443539\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | True\r\n                    Size | (40.00, 39.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | False\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u0418\u0433\u0440\u0430\u0442\u044C/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -492321468\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (25.00, 32.50)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -492321468\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (25.00, 32.50)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n                   
+      isVisible | True\r\n                    Type | RECTANGLE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2065998696\r\n                   
+      StrokeWeight | 2\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (168.00, 32.00)\r\n                    isVisible | True\r\n                   
+      Type | RECTANGLE\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | 2065998696\r\n                    StrokeWeight | 2\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (168.00, 32.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.276, 0.434, 0.996, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound\r\n                    isVisible | True\r\n                   
+      Type | FRAME\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -835037237\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | True\r\n                    Size | (38.00, 38.00)\r\n                   
+      isVisible | True\r\n                    Type | FRAME\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -835037237\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    ClipsContent | True\r\n                   
+      Size | (38.00, 38.00)\r\n                    \u2014\u2014\u2014\u2014Fills\r\n                       
+      IsVisible | False\r\n                        Type | SOLID\r\n                       
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound/Vector\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -883357530\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (9.50, 28.50)\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -883357530\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (9.50, 28.50)\r\n                    \u2014\u2014\u2014\u2014Fills\r\n                       
+      IsVisible | True\r\n                        Type | SOLID\r\n                       
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/Group 11\r\n                    isVisible | True\r\n                   
+      Type | GROUP\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      ClipsContent | False\r\n                    Size | (263.00, 32.00)\r\n                   
+      isVisible | True\r\n                    Type | GROUP\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    ClipsContent | False\r\n                   
+      Size | (263.00, 32.00)\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n                   
+      isVisible | True\r\n                    Type | RECTANGLE\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1907592786\r\n                   
+      StrokeWeight | 2\r\n                    StrokeAlign | INSIDE\r\n                   
+      CornerRadius | 50\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (263.00, 32.00)\r\n                    isVisible | True\r\n                   
+      Type | RECTANGLE\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | 1907592786\r\n                    StrokeWeight | 2\r\n                   
+      StrokeAlign | INSIDE\r\n                    CornerRadius | 50\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (263.00, 32.00)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041C\u0430\u0433\u0430\u0437\u0438\u043D\r\n                       
+      isVisible | True\r\n                        Type | FRAME\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1045635061\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        ClipsContent | True\r\n                       
+      Size | (51.00, 51.00)\r\n                        isVisible | True\r\n                       
+      Type | FRAME\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -1045635061\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | True\r\n                        Size | (51.00, 51.00)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | False\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041C\u0430\u0433\u0430\u0437\u0438\u043D/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1784885126\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (6.38, 6.38)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1784885126\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (6.38, 6.38)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Voice
+      tumbler/Sound/Vector\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -1255530140\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (25.33, 31.25)\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -1255530140\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (25.33, 31.25)\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/Group 11/\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E\r\n                       
+      isVisible | True\r\n                        Type | RECTANGLE\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -448184460\r\n                       
+      StrokeWeight | 2\r\n                        StrokeAlign | INSIDE\r\n                       
+      CornerRadius | 50\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (138.00, 32.00)\r\n                        isVisible | True\r\n                       
+      Type | RECTANGLE\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -448184460\r\n                        StrokeWeight | 2\r\n                       
+      StrokeAlign | INSIDE\r\n                        CornerRadius | 50\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (138.00, 32.00)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.276, 0.434, 0.996,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/Music\r\n                        isVisible | True\r\n                       
+      Type | FRAME\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -835037237\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      ClipsContent | True\r\n                        Size | (38.00, 38.00)\r\n                       
+      isVisible | True\r\n                        Type | FRAME\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -835037237\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        ClipsContent | True\r\n                       
+      Size | (38.00, 38.00)\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | False\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Music
+      tumbler/Music/Vector\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -1975063143\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (21.00, 38.00)\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -1975063143\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (21.00, 38.00)\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041C\u0430\u0433\u0430\u0437\u0438\u043D/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1784885126\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (6.38, 6.38)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1784885126\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (6.38, 6.38)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/Settings\r\n                           
+      isVisible | True\r\n                            Type | FRAME\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 425288523\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            ClipsContent | True\r\n                           
+      Size | (42.00, 42.00)\r\n                            isVisible | True\r\n                           
+      Type | FRAME\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | 425288523\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | True\r\n                            Size | (42.00, 42.00)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | False\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/Settings/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 45718010\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (33.39, 33.39)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 45718010\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (33.39, 33.39)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.276, 0.434, 0.996, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438/Menus/\u041C\u0435\u043D\u044E\u0448\u043A\u0438/\u041C\u0430\u0433\u0430\u0437\u0438\u043D/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      2052362077\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (42.50, 29.75)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 2052362077\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (42.50,
+      29.75)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3574822953479223398
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069769114941171912}
+  m_CullTransparentMesh: 1
+--- !u!114 &4172803810397979097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069769114941171912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6336586458565527775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069769114941171912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1001 &2017129609399264617
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1138048781257240226}
+    m_Modifications:
+    - target: {fileID: 961468263248083457, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_Name
+      value: Voice tumbler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 215
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -421
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+--- !u!224 &7215584397474788679 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9213431862532214830, guid: 48b090cf49a3975458bba207763c8c51, type: 3}
+  m_PrefabInstance: {fileID: 2017129609399264617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4437366038632002247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1138048781257240226}
+    m_Modifications:
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 215
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -511
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169510501681468461, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+      propertyPath: m_Name
+      value: Music tumbler
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+--- !u!224 &1112056940376483395 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3673355115113157764, guid: 523725ad21990814bab6d5b75b63a483, type: 3}
+  m_PrefabInstance: {fileID: 4437366038632002247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6025465776790166428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1138048781257240226}
+    m_Modifications:
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -867
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506903505315659794, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: m_Name
+      value: "\u041F\u043B\u0430\u0448\u043A\u0430 \u043C\u0435\u043D\u044E"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6814738312833832627, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+      propertyPath: data.id
+      value: 102:334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+--- !u!224 &7282478292060683740 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3931165695695185472, guid: 945b2e44d4882384583b6a0237d98f37, type: 3}
+  m_PrefabInstance: {fileID: 6025465776790166428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7792192036124000514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1138048781257240226}
+    m_Modifications:
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -867
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517413680453681682, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+      propertyPath: m_Name
+      value: Menus
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+--- !u!224 &1800183763752971249 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8419731048164190963, guid: 505e489424dbd4041b6bf4569a4dcb75, type: 3}
+  m_PrefabInstance: {fileID: 7792192036124000514}
+  m_PrefabAsset: {fileID: 0}
