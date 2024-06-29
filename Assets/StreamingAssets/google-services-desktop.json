@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "381028663809",
+    "firebase_url": "https://quizzapp-37e78-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "quizzapp-37e78",
+    "storage_bucket": "quizzapp-37e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381028663809:android:7362c193947d0c176a3600",
+        "android_client_info": {
+          "package_name": "com.DigitalDrugs.QuizApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2EXPu8B3ba6LbG0L7FjxWl9lf9GZlK1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

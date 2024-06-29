@@ -3,40 +3,85 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class AnswerButton : MonoBehaviour
 {
-    private bool _isCorrect = false;
-    [SerializeField] private TextMeshProUGUI _answerText;
+    [SerializeField] private TextMeshProUGUI _answerText;  
+    [SerializeField] private Image _imageComponent;
+    [field:SerializeField]public Button Button { get ; set ; }
+    
+    private void Awake()
+    {
+        ButtonHolder.OnWrongChoiceSelectedEvent +=(bool obj)=> HighlightedCorrectOption();
+        QuestionManager.SpriteResetEvent +=  ResetSprite;
+        ButtonHolder.OnSelectedEvent += SetInteractable;
+        Button.onClick.AddListener(CheckCorrectness);
+        ResetSprite();
+    }
 
+    private void SetInteractable()
+    {
+        print("AnswerButton Interactable: " + Button.interactable);
+        StartCoroutine(TimedInteraction());
+    }
+
+    private IEnumerator TimedInteraction()
+    {
+        Button.interactable = !Button.interactable;
+        yield return new WaitForSeconds(QuestionManager.Instance.QuestionPreloadTime);
+        Button.interactable = !Button.interactable;
+    }
+
+    private void OnDisable()
+    {
+        QuestionSetup.OnNextQuestion -= ResetSprite;
+        ButtonHolder.OnSelectedEvent -= SetInteractable;
+        ButtonHolder.OnWrongChoiceSelectedEvent -= (bool obj) => HighlightedCorrectOption();
+
+    }
     public void SetAnswerText(string newText)
     {
         _answerText.text = newText;
     }
 
-    public void SetIsCorrect(bool newBool)
-    {
-        _isCorrect = newBool;
-    }
 
     public void OnClick()
     {
-        if (_isCorrect && !QuestionSetup.CurrentQuestion.IsDone)
+        if(!HighlightedCorrectOption())
         {
-            Statistics.Instance.UpdateRightAnswers();
+            _imageComponent.sprite = UIHolder.Instance.Wrong;
+            ButtonHolder.Instance.HighlightCorrectOption();
+            print(gameObject.name);
+        }
+    }
+
+    private void ResetSprite()
+    {
+        _imageComponent.sprite = UIHolder.Instance.Default;
+    }
+
+    private bool HighlightedCorrectOption()
+    {
+        if (_answerText.text == QuestionManager.Instance.Correct)
+        {
+            _imageComponent.sprite = UIHolder.Instance.Correct;
+            return true;
+        }
+        return false;
+    }
+
+    private void CheckCorrectness()
+    {
+        if (_answerText.text == QuestionManager.Instance.Correct)
+        {
+            print("Correct = " + QuestionManager.Instance.Correct);
+            QuestionManager.Instance.IsCorrect = true;
         }
         else
         {
-            StartCoroutine(PostSelectionTimer());
+            QuestionManager.Instance.IsCorrect = false;
+            print("Correct = " + QuestionManager.Instance.Correct);
         }
-
-        QuestionSetup.Instance.MarkDone();
-    }
-
-    private IEnumerator PostSelectionTimer()
-    {
-        yield return new WaitForSeconds(0);
-        QuestionSetup.Instance.ActivateGamePanel();
-        QuestionSetup.NextQuestion();
     }
 }

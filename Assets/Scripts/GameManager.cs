@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private bool _gameFinished;
-    public bool GameFinished { get { return _gameFinished; } set { _gameFinished = value; for (int i = 0; i < _uiObjects.Length; i++) { _uiObjects[i].SetActive(!_uiObjects[i].activeSelf); } Statistics.Instance.UpdateMatchesPlayed(); } }
+    public bool GameFinished { get { return _gameFinished; } set { _gameFinished = value; if (value) { for (int i = 0; i < _uiObjects.Length - 2; i++) { _uiObjects[i].SetActive(!_uiObjects[i].activeSelf); } _uiObjects[6].SetActive(false); _uiObjects[7].SetActive(false); Statistics.Instance.UpdateMatchesPlayed(); } } }
 
     [SerializeField]
     private GameObject[] _uiObjects;
@@ -40,4 +40,5 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.DeleteAll();
         }
     }
+
 }

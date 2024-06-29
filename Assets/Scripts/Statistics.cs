@@ -7,74 +7,37 @@ using UnityEngine.UI;
 public class Statistics : MonoBehaviour
 {
     [SerializeField]
-    private TextMeshProUGUI _levelText, _matchesPlayedText, _rightAnswersText;
-    [SerializeField]
-    private Slider _experienceSlider;
-    private int _level,_rightAnswers,_matchesPlayed;
-    private float _experience, _limit;
-    [SerializeField]
     private float _stepMultiplier = 1.5f, _limitBase = 100, _rightAnswerExpAmount = 10;
+    [SerializeField] private bool _deleteJsonOnAwake;
+    private int _level,_rightAnswers,_matchesPlayed;
+    private float _experience, _limit, _percentage;
 
     private static Statistics _instance;
     public static Statistics Instance => _instance;
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (_instance != null) Destroy(_instance);
         _instance = this;
 
-        if (!PlayerPrefs.HasKey("level"))
-        {
-            PlayerPrefs.SetInt("level",1);
-        }
-        if (!PlayerPrefs.HasKey("experience"))
-        {
-            PlayerPrefs.SetFloat("experience", 0);
-        }
-        if (!PlayerPrefs.HasKey("matchesPlayed"))
-        {
-            PlayerPrefs.SetInt("matchesPlayed", 1);
-        }
-        if (!PlayerPrefs.HasKey("rightAnswers"))
-        {
-            PlayerPrefs.SetInt("rightAnswers", 0);
-        }
+        if (_deleteJsonOnAwake) System.IO.File.Delete(Application.persistentDataPath + "/PlayerStats.json");
 
+        if (!System.IO.File.Exists(Application.persistentDataPath + "/PlayerStats.json"))
+        {
+            System.IO.File.Create(Application.persistentDataPath + "/PlayerStats.json");
+        }
         Initialize();
-    }
-
-
-    public void IncreaseLevel()
-    {
-
-    }
-
-    private static int  Exp;
-
-
-    public static void OnExpChanged(int value)
-    {
-        Exp += value;
-        //print("Exp = " + Exp);
-        PlayerPrefs.SetInt("Exp", Exp);
     }
 
     private void Initialize()
     {
-        _level = PlayerPrefs.GetInt("level");
-        _matchesPlayed = PlayerPrefs.GetInt("matchesPlayed");
-        _rightAnswers = PlayerPrefs.GetInt("rightAnswers");
-        _experience = PlayerPrefs.GetFloat("experience");
+        JsonReadWrite.ReadFromJson(out _level, out _experience, out _matchesPlayed, out _percentage);
+        UIHolder.Instance.LevelText.text = $"Lvl: {_level}";
+        UIHolder.Instance.MatchesPlayedText.text = $"Matches Played: {_matchesPlayed}";
+        UIHolder.Instance.RightAnswersText.text = $"Right Answers: {_percentage}%";
 
-        _levelText.text = $"Lvl:{_level}";
-        _matchesPlayedText.text = $"Matches Played: {_matchesPlayed}";
-        _rightAnswersText.text = $"Right Answers:{_rightAnswers}";
-
-        //print($" {_levelText.text} {_matchesPlayedText.text} {_rightAnswersText.text} ");
         _limit = _level * _limitBase * _stepMultiplier;
-        _experienceSlider.value = _experience / _limit;
-
+        UIHolder.Instance.ExperienceSlider.value = _experience / _limit;
     }
 
     public void UpdateExp()
@@ -83,39 +46,44 @@ public class Statistics : MonoBehaviour
         if(_experience > _limit)
         {
             _level += 1;
-            _levelText.text = $"Level: {_level}";
+            UIHolder.Instance.LevelText.text = $"Level: {_level}";
             _limit = _level * _limitBase * _stepMultiplier;
             _experience = 0;
         }
-        _experienceSlider.value = _experience/_limit;
-        PlayerPrefs.SetInt("level", _level);
-        PlayerPrefs.SetFloat("experience", _experience);
+        UIHolder.Instance.ExperienceSlider.value = _experience/_limit;
+
     }
 
     public void UpdateMatchesPlayed()
     {
         _matchesPlayed++;
-        print($"matches played {_matchesPlayed}");
 
-        _matchesPlayedText.text = $"Matches Played: {_matchesPlayed}";
+        UIHolder.Instance.MatchesPlayedText.text = $"Matches Played: {_matchesPlayed}";
+        //print($"Matches Played: {_level},{_experience}, {_matchesPlayed}, {_percentage}");
+        JsonReadWrite.SaveToJson(_level, _experience, _matchesPlayed, _percentage);
     }
 
     public void UpdateRightAnswers()
     {
         _rightAnswers++;
-        //_rightAnswersText.text = $"Right Answers: {_rightAnswers}";
+        print("right answers: "+_rightAnswers);
     }
 
     private void OnApplicationQuit()
     {
-        PlayerPrefs.SetInt("level", _level);
-        PlayerPrefs.SetFloat("experience", _experience);
-        PlayerPrefs.SetInt("matchesPlayed", _matchesPlayed);
-        PlayerPrefs.SetInt("rightAnswers", _rightAnswers);
+        JsonReadWrite.SaveToJson(_level,_experience,_matchesPlayed,_percentage);
     }
 
-    private void CountPercetage()
+    public void CountPercentage(int total)
     {
-        _rightAnswersText.text = $"Right Answers: {_rightAnswers}";
+        print("total: " + total);
+        _percentage = (_percentage +(float)_rightAnswers / total * 100) / 2;
+        print($"%:{_percentage}  RightAnswers:{(float)_rightAnswers} Total:{total} result: {_percentage}");
+        UIHolder.Instance.RightAnswersText.text = $"Right Answers: {_percentage}%";
+    }
+
+    public void ResetRightAnswers()
+    {
+        _rightAnswers = 0;
     }
 }

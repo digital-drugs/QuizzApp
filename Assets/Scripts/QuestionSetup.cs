@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,12 +38,13 @@ public class QuestionSetup : MonoBehaviour
     private static int _currentNumber = 0;
     public static int CurrentNumber => _currentNumber;
 
+    public static event Action OnNextQuestion;
+
     void Awake()
     {
         if (_instance) Destroy(this);
         _instance = this;
     }
-
 
     private void TruncateByHalf()
     {
@@ -54,7 +56,7 @@ public class QuestionSetup : MonoBehaviour
         }
     }
 
-
+    #region
     private void GetQuestionAssets()
     {
         print("GetQuestionAssets");
@@ -62,23 +64,27 @@ public class QuestionSetup : MonoBehaviour
         {
             //print($"category number = {GameManager.Instance.CategoryNumber}");
             _questions = new List<QuestionData>(Resources.LoadAll<QuestionData>("Questions0"));
+            ClearDoneMarks();
             
         }
         else if(GameManager.Instance.CategoryNumber == "1")
         {
             //print($"category number = {GameManager.Instance.CategoryNumber}");
             _questions = new List<QuestionData>(Resources.LoadAll<QuestionData>("Questions1"));
+            ClearDoneMarks();
+
         }
         else if (GameManager.Instance.CategoryNumber == "2")
         {
             //print($"category number = 2");
             _questions = new List<QuestionData>(Resources.LoadAll<QuestionData>("Questions" + "0"));
             _questions.AddRange(new List<QuestionData>(Resources.LoadAll<QuestionData>("Questions" + "1")));
+            ClearDoneMarks();
         }
 
 
     }
-
+    #endregion
     private void SelectNewQuestion()
     {
         _currentQuestion = _questions[_currentNumber];
@@ -115,14 +121,14 @@ public class QuestionSetup : MonoBehaviour
         {
             for (int i = 0; i < _answerButtons.Length; i++)
             {
-                bool isCorrect = false;
+                //bool isCorrect = false;
 
                 if (i == _correctAnswerChoice)
                 {
-                    isCorrect = true;
+                    //isCorrect = true;
                 }
 
-                _answerButtons[i].SetIsCorrect(isCorrect);
+                //_answerButtons[i].SetIsCorrect(isCorrect);
                 _answerButtons[i].SetAnswerText(answers[i]);
             }
         }
@@ -146,7 +152,7 @@ public class QuestionSetup : MonoBehaviour
 
         for (int i = 0; i < _answerButtons.Length; i++)
         {
-            int random = Random.Range(0, originalList.Count);
+            int random = UnityEngine.Random.Range(0, originalList.Count);
 
             if(random == 0 && !correctAnswerChosen)
             {
@@ -168,6 +174,7 @@ public class QuestionSetup : MonoBehaviour
         _instance.SetAnswerValues();
         _instance.SetCountValues();
         _instance.ActivateGamePanel();
+        OnNextQuestion?.Invoke();
     }
 
     private static readonly System.Random rng = new();  
@@ -218,27 +225,19 @@ public class QuestionSetup : MonoBehaviour
 
     public void LoadQuestionsOnClick()
     {
-        StartCoroutine(StepLoader());
-    }
-
-    private IEnumerator StepLoader()
-    {
         GetQuestionAssets();
         _instance.SetCountValues();
-        //yield return new WaitUntil(() => !_questions.IsEmpty());
         Shuffle(_questions);
         SelectNewQuestion();
         SetQuestionValues();
         SetAnswerValues();
         TruncateByHalf();
-        yield return null;
     }
 
     public void ActivateGamePanel()
     {
-        print($"{_selectableActive}{ _inputActive}");
-        _panelSelectable.SetActive(_selectableActive); _panelInput.SetActive(_inputActive);
-
+        _panelSelectable.SetActive(_selectableActive);
+        _panelInput.SetActive(_inputActive);
     }
 
     public void CheckRight()
@@ -249,5 +248,13 @@ public class QuestionSetup : MonoBehaviour
             Statistics.Instance.UpdateExp();
             Statistics.Instance.UpdateRightAnswers();
         }
+    }
+
+    private void ClearDoneMarks()
+    {
+        //foreach (var item in _questions)
+        //{
+        //    item.IsDone = false;
+        //}
     }
 }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyATAqGn47yDBVN-AqTRjQpinPuIKGqaVhw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>381028663809</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DigitalDrugs.QuizApp</string>
+	<key>PROJECT_ID</key>
+	<string>quizzapp-37e78</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quizzapp-37e78.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:381028663809:ios:c7e7659b311432b26a3600</string>
+	<key>DATABASE_URL</key>
+	<string>https://quizzapp-37e78-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
